@@ -16,7 +16,7 @@ then
   bash build_chain.sh -l 127.0.0.1:$num_of_nodes -p 30300,20200,8545
   bash nodes/127.0.0.1/start_all.sh
 
-  cp -r nodes/127.0.0.1/sdk/* ~/java-sdk-demo/dist/conf/
+  cp -r nodes/127.0.0.1/sdk/* ../dist/conf/
 
 # multiple pc
 elif [[ $type -eq 2 ]]

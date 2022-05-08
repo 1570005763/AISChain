@@ -1,7 +1,9 @@
 ## workspace folders.
 .gradle
 build
-dist
+dist/*
+!dist/run_AISChain.sh
+!dist/stresstest.sh
 .idea
 conf
 #build_chain.sh
@@ -10,3 +12,4 @@ initEnv.sh
 tassl
 console
 *tar.gz
+*/simulate_ais.csv
