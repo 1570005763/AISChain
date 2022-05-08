@@ -4,6 +4,7 @@ build
 dist/*
 !dist/run_AISChain.sh
 !dist/stresstest.sh
+!dist/log
 .idea
 conf
 #build_chain.sh
@@ -11,5 +12,6 @@ nodes
 initEnv.sh
 tassl
 console
+*.log
 *tar.gz
 */simulate_ais.csv
